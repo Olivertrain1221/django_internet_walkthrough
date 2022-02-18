@@ -25,8 +25,10 @@ SECRET_KEY = 'django-insecure-bogp=ui1w-d-&k713!(x)rsgjqg4rmj22&19sv*wpe6t@cj&61
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
+ALLOWED_HOSTS = ['localhost']
+
+CSRF_TRUSTED_ORIGINS = ['http://8000-olivertrain1221-djangoin-fkvqaatpxz1.ws-eu32.gitpod.io']
 
 # Application definition
 
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'djangointernet',
     'articles',
 ]
 
