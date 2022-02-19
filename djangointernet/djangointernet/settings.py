@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-bogp=ui1w-d-&k713!(x)rsgjqg4rmj22&19sv*wpe6t@cj&61
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ["localhost"]
 
-CSRF_TRUSTED_ORIGINS = ['http://8000-olivertrain1221-djangoin-fkvqaatpxz1.ws-eu32.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-olivertrain1221-djangoin-fkvqaatpxz1.ws-eu33.gitpod.io', 'http://127.0.0.1:8000/']
 
 # Application definition
 
